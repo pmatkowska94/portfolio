@@ -2,4 +2,42 @@ title: Paulina Matkowska
 logo: /assets/3d-motion-flow-background-with-digital-particles.jpg
 #description: text below image
 #show_downloads: true
-theme: jekyll-theme-minimal
+
+description: > # this means to ignore newlines until "baseurl:"
+  This is my professional ePortfolio where I showcase my projects and skills.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://your-username.github.io" # the base hostname & protocol for your site
+
+# Build settings
+theme: minima
+
+# Author settings
+author:
+  name: Your Name
+  email: your-email@example.com
+  github: https://github.com/your-username
+
+# Social settings
+social:
+  twitter: your-twitter-username
+  github: your-username
+  linkedin: your-linkedin-username
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclusions
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
