@@ -1,7 +1,4 @@
-#Data Scientist
-
-
-
+# Data Scientist
 
 #### Technical Skills: Python, SQL, R
 
